@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@mipmap/background_home6">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/icon_5"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="湘钢在线监测平台"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#99404348"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:background="#99000000"
+    >
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@null"
+        android:hint="Please enter your username"
+        android:textColor="#9F9FA0"
+        android:textColorHint="#9F9FA0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#83738F"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"></View>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Please enter your password"
+        android:background="@null"
+        android:textColor="#9F9FA0"
+        android:textColorHint="#9F9FA0"
+        android:inputType="textPassword"
+       />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#99404348"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget password?"
+        android:textSize="20sp"
+        android:textColor="#9F9FA0"
+    />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Tap here"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+           android:textColor="#FFFFFF"
+            android:text="LOGIN"
+           android:layout_weight="1"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:text="SIGN IN"
+           android:layout_weight="1"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+</LinearLayout>
