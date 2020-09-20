@@ -1,2 +1,1 @@
-# login_design
-The frist project
+湘钢动力旋转设备在线检测平台
